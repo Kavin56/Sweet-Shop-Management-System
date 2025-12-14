@@ -1,4 +1,4 @@
-# Sweet Shop Management System
+<img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/2f330cfa-801d-4db9-873f-47516cab771d" /># Sweet Shop Management System
 
 A full-stack Sweet Shop Management System built with FastAPI (Python) and Streamlit, featuring user authentication, CRUD operations for sweets, inventory management, and search functionality.
 
@@ -52,7 +52,9 @@ This will:
 
 The API will be available at:
 - API: http://localhost:8000
+<img width="862" height="77" alt="image" src="https://github.com/user-attachments/assets/84b86742-124f-4648-984b-1eabbfd3e35e" />
 - API Documentation: http://localhost:8000/docs
+<img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/6306c03f-efa8-40c4-951d-3d2a55d21dbc" />
 
 #### Option B: Streamlit Frontend
 
@@ -63,6 +65,7 @@ streamlit run streamlit_app.py
 ```
 
 The Streamlit app will open in your browser (usually at http://localhost:8501).
+<img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/e72eaa0d-77ef-4a36-a03f-287404c3a29c" />
 
 **Note**: Make sure the FastAPI server is running (from Option A) before using the Streamlit frontend, as it connects to the API.
 
@@ -92,6 +95,7 @@ The Streamlit app will open in your browser (usually at http://localhost:8501).
 #### Authentication
 - `POST /api/auth/register` - Register a new user
 - `POST /api/auth/login` - Login and get JWT token
+<img width="497" height="169" alt="{40BFE147-E92D-4957-8EFA-7809ADE72A55}" src="https://github.com/user-attachments/assets/1797b578-5669-4e4d-b039-bd252d4f6c7b" />
 
 #### Sweets (Protected - requires authentication)
 - `POST /api/sweets` - Add a new sweet
@@ -99,10 +103,12 @@ The Streamlit app will open in your browser (usually at http://localhost:8501).
 - `GET /api/sweets/search` - Search sweets (query params: name, category, min_price, max_price)
 - `PUT /api/sweets/{id}` - Update a sweet
 - `DELETE /api/sweets/{id}` - Delete a sweet (Admin only)
+<img width="312" height="259" alt="{2E9E9894-6303-4105-AA64-2F3A0D866CB6}" src="https://github.com/user-attachments/assets/f7c92e9c-e67f-41c7-96f0-9be61aa313d5" />
 
 #### Inventory (Protected - requires authentication)
 - `POST /api/sweets/{id}/purchase` - Purchase a sweet (decreases quantity)
 - `POST /api/sweets/{id}/restock` - Restock a sweet (increases quantity, Admin only)
+<img width="479" height="328" alt="image" src="https://github.com/user-attachments/assets/e43e80b9-89fb-41c0-87d6-f9b074f7089c" />
 
 ### Using the Streamlit Interface
 
@@ -149,6 +155,7 @@ You can test the API using:
 curl -X POST "http://localhost:8000/api/auth/register" \
   -H "Content-Type: application/json" \
   -d '{"username": "user1", "password": "password123"}'
+<img width="1042" height="131" alt="image" src="https://github.com/user-attachments/assets/817ad7fc-17fc-491c-a00b-c7ac06c17ef4" />
 
 # Register with admin privileges (using admin key)
 curl -X POST "http://localhost:8000/api/auth/register" \
