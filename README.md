@@ -66,7 +66,7 @@ streamlit run streamlit_app.py
 ```
 
 The Streamlit app will open in your browser (usually at http://localhost:8501).
-<img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/e72eaa0d-77ef-4a36-a03f-287404c3a29c" />
+<img width="1755" height="622" alt="image" src="https://github.com/user-attachments/assets/147095df-26e9-4707-ba5d-84f6c92b6c7b" />
 
 **Note**: Make sure the FastAPI server is running (from Option A) before using the Streamlit frontend, as it connects to the API.
 
