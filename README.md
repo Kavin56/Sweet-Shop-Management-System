@@ -156,8 +156,10 @@ You can test the API using:
 curl -X POST "http://localhost:8000/api/auth/register" \
   -H "Content-Type: application/json" \
   -d '{"username": "user1", "password": "password123"}'
+```
 <img width="1042" height="131" alt="image" src="https://github.com/user-attachments/assets/817ad7fc-17fc-491c-a00b-c7ac06c17ef4" />
 
+```
 # Register with admin privileges (using admin key)
 curl -X POST "http://localhost:8000/api/auth/register" \
   -H "Content-Type: application/json" \
