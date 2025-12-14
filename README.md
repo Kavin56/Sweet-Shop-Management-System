@@ -1,4 +1,4 @@
-<img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/2f330cfa-801d-4db9-873f-47516cab771d" /># Sweet Shop Management System
+# Sweet Shop Management System
 
 A full-stack Sweet Shop Management System built with FastAPI (Python) and Streamlit, featuring user authentication, CRUD operations for sweets, inventory management, and search functionality.
 
@@ -53,6 +53,7 @@ This will:
 The API will be available at:
 - API: http://localhost:8000
 <img width="862" height="77" alt="image" src="https://github.com/user-attachments/assets/84b86742-124f-4648-984b-1eabbfd3e35e" />
+
 - API Documentation: http://localhost:8000/docs
 <img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/6306c03f-efa8-40c4-951d-3d2a55d21dbc" />
 
